@@ -8,8 +8,8 @@ var ng_file_drop_1 = require('./src/directives/ng-file-drop');
 __export(require('./src/services/ng2-uploader'));
 __export(require('./src/directives/ng-file-select'));
 __export(require('./src/directives/ng-file-drop'));
-exports.__esModule = true;
-exports["default"] = {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
     directives: [ng_file_select_1.NgFileSelect, ng_file_drop_1.NgFileDrop],
     providers: [ng2_uploader_1.Ng2Uploader]
 };

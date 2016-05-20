@@ -1,23 +1,18 @@
 {
   "compilerOptions": {
-    "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "mapRoot": "",
-    "module": "system",
+    "target": "es5",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "noEmitOnError": true,
-    "noImplicitAny": false,
-    "rootDir": ".",
+    "removeComments": true,
     "sourceMap": true,
-    "sourceRoot": "/",
-    "target": "es5"
+    "outDir": "./",
+    "declaration": true
   },
-  "files": [
-    "ng2-uploader.ts",
-    "node_modules/angular2/typings/browser.d.ts"
-  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
   ]
 }

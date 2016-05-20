@@ -10,7 +10,7 @@
     "url": "git+https://github.com/jkuri/ng2-uploader.git"
   },
   "scripts": {
-    "prepublish": "tsc && node make.js"
+    "prepublish": "tsc -p ./"
   },
   "keywords": [
     "ng2",
@@ -24,6 +24,6 @@
     "@angular/core": "^2.0.0-rc.1"
   },
   "devDependencies": {
-    "systemjs-builder": "^0.15.14"
+    "typings": "^1.0.4"
   }
 }
