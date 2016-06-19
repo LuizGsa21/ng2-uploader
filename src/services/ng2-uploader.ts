@@ -151,7 +151,7 @@ export class Ng2Uploader {
         this.removeFileFromQueue(queueIndex);
         this._emitter.emit(uploadingFile);
       }
-    }
+    };
 
     xhr.open(this.method, this.url, true);
     xhr.withCredentials = this.withCredentials;
