@@ -10,7 +10,6 @@
     "url": "git+https://github.com/jkuri/ng2-uploader.git"
   },
   "scripts": {
-    "postinstall": "tsc -p ./"
   },
   "keywords": [
     "ng2",
